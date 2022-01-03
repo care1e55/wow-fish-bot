@@ -18,6 +18,14 @@ is_block = False
 new_cast_time = 0
 recast_time = 40
 wait_mes = 0
+wowwin = None
+
+display = display.Display()
+
+for win in ewmh.getClientList():
+    if win.get_wm_name() == "World of Warcraft":
+        wowwin = win
+
 
 if __name__ == "__main__":
     while True:
@@ -36,7 +44,7 @@ if __name__ == "__main__":
                 lastx = 0
                 lasty = 0
                 pyautogui.press('1')
-                # print("Fish on !")
+                print("Fish on !")
                 new_cast_time = time.time()
                 is_block = True
                 time.sleep(random.uniform(1.5, 3.5))
@@ -70,11 +78,14 @@ if __name__ == "__main__":
                         is_block = False
                         if b_x < 1: b_x = lastx
                         if b_y < 1: b_y = lasty
+                        wowwin.set_input_focus(X.RevertToParent, X.CurrentTime)
+                        wowwin.configure(stack_mode=X.Above)
+                        display.sync()
                         pyautogui.moveTo(b_x, b_y + fish_area[1], 0.3)
                         pyautogui.mouseDown(button='right')
                         time.sleep(random.uniform(0.05, 0.15))
                         pyautogui.mouseUp(button='right')
-                        # print("Catch !")
+                        print("Catch !")
                         time.sleep(random.uniform(4, 7))
                 lastx = b_x
                 lasty = b_y
