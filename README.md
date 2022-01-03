@@ -1,6 +1,8 @@
 ![alt text](resources/wow-fish-bot.png) [Last Release](https://github.com/YECHEZ/wow-fish-bot/releases/latest) <br />
 🔄 TRY UPDATED VERSION BY [github.com/matianchi](https://github.com/matianchi/wow-fish-bot)
 # wow-fish-bot | APP RELEASE
+#### 🔄 Lunix port not using winapi. For those who play with lutris like me
+
 ## World of Warcraft Fish BOT. Python. Simple. For me.
 > Using third-party programs to automate any facet of the game, exploiting bugs, or engaging in any activity that grants an unfair advantage is considered cheating.
 
@@ -11,7 +13,7 @@ How to:
 2. Move skill 'Fishing' to slot with bind '1'
 3. Hide World of Warcraft UI (ALT + Z)
 4. Full camera zoom
-5. Unpause bot via Right click on icon
+5. `python wow-fish-bot.py`
 
 - Work only if found active window 'World of Warcraft'
 - How it work: 
