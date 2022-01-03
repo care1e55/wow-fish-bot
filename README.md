@@ -1,4 +1,4 @@
-![alt text](wow-fish-bot.png) [Last Release](https://github.com/YECHEZ/wow-fish-bot/releases/latest) <br />
+![alt text](resources/wow-fish-bot.png) [Last Release](https://github.com/YECHEZ/wow-fish-bot/releases/latest) <br />
 🔄 TRY UPDATED VERSION BY [github.com/matianchi](https://github.com/matianchi/wow-fish-bot)
 # wow-fish-bot | APP RELEASE
 ## World of Warcraft Fish BOT. Python. Simple. For me.
@@ -23,6 +23,4 @@ or 1920x1080 maximized
 - Tested on areas: Orgrimmar, near WC dungeon and Ratchet
 - Works good (80%)
 - Gif - https://imgur.com/a/IRftPyX
-![alt text](wow-fish-bot-area.png)
-![alt text](wow-fish-bot-app.png)
-![alt text](wow-fish-bot.png)
+![alt text](resources/wow-fish-bot-area.png)
